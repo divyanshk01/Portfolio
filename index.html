@@ -26,7 +26,7 @@
           <div class="flex items-center gap-2">
             <img class="w-8" src="./public/img/logo.png" alt="" />
             <span class="font-bold text-indigo-900 dark:text-white nav"
-              >DIVYANSH</span
+              >Divyansh</span
             >
           </div>
           <ul
@@ -51,10 +51,10 @@
           <img
             id="moon"
             src="./public/img/moon.png"
-            class="hidden md:block w-5 cursor-pointer"
+            class="md:block w-5 cursor-pointer self-end"
             alt=""
           />
-          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20" style="margin-right: 10px;">
             <div class="w-6 h-0.5 bg-black"></div>
             <div class="w-6 h-0.5 bg-black"></div>
             <div class="w-6 h-0.5 bg-black"></div>
@@ -102,7 +102,7 @@
       <div
         class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-16 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit w-1/3"
       >
-        <h1 class="text-4xl font-bold text-indigo-900"><span id="element"></span></h1>
+        <h1 class="text-4xl font-bold text-indigo-900 p-1"><span id="element"></span></h1>
         <p class="text-gray-400">
           <span id="element2"></span>
         </p>
@@ -110,6 +110,16 @@
           <a href="./public/documents/Divyansh-khandelwal-resume.pdf" download="Divyansh-khandelwal-resume"
             ><i class="fa-solid fa-download"></i> Resume</a
           >
+        </button>
+      </div>
+      <!-- smallScreenText -->
+      <div
+        class="hidden smallScreenText"
+      >
+        <h1 class="text-3xl font-bold text-indigo-900 p-2"><span id="element3"></span></h1>
+        <button class="bg-indigo-600 text-white text-lg px-3 mr-4 py-2 rounded-md font-semibold w-fit">
+          <a href="./public/documents/Divyansh-khandelwal-resume.pdf" download="Divyansh-khandelwal-resume"
+            ><i class="fa-solid fa-download"></i> Resume</a>
         </button>
       </div>
     </div>
@@ -331,7 +341,7 @@
         <span class="hidden md:block font-medium text-white"
           >© 2024 Design with ♥️ by Divyansh Khandelwal.</span
         >
-        <div class="flex gap-2">
+        <div class="flex gap-2" style="padding-right: 10px;">
           <img class="w-4 cursor-pointer" src="./public/img/facebook.png" alt="" />
           <img class="w-4 cursor-pointer" src="./public/img/instagram.png" alt="" />
           <img class="w-4 cursor-pointer" src="./public/img/twitter.png" alt="" />
@@ -342,6 +352,12 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed('#element', {
+        strings: ['Hii! I am Divyansh Khandelwal'],
+        typeSpeed: 75,
+      });
+    </script>
+    <script>
+      var typed = new Typed('#element3', {
         strings: ['Hii! I am Divyansh Khandelwal'],
         typeSpeed: 75,
       });
