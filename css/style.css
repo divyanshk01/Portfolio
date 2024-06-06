@@ -1179,3 +1179,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 #hamburger{
   margin-right: 10px;
 }
+.contact-form{  
+  margin-bottom: 0px;
+}
