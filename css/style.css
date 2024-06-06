@@ -1171,3 +1171,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: fit-content;
   }
 }
+
+.footer{
+  padding-right: 10px
+}
+
+#hamburger{
+  margin-right: 10px;
+}
